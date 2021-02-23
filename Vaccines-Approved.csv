@@ -8,7 +8,7 @@ ISR,,,,,,,,,,
 JOR,Not-Approved,,Approved,unkown,Approved,unkown,Not-Approved,,Not-Approved,
 KWT,Not-Approved,,Not-Approved,,Approved,unkown,Not-Approved,,Not-Approved,
 LBN,Not-Approved,,Not-Approved,,Approved,unkown,Not-Approved,,Not-Approved,
-LBY,None-Approved,,,,,,,,
+LBY,None-Approved,,,,,,,,,
 MAR,Not-Approved,,Approved,unkown,Not-Approved,,Not-Approved,,Approved,unkown
 MRT,,,,,,,,,,
 OMN,Not-Approved,,Not-Approved,,Approved,unkown,Approved,unkown,Approved,unkown
@@ -18,6 +18,6 @@ SAU,Approved,unkown,Not-Approved,,Approved,unkown,Approved,unkown,Approved,unkow
 SOM,,,,,,,,,,
 SON,,,,,,,,,,
 SSO,,,,,,,,,,
-SYR,None-Approved,,,,,,,,
+SYR,None-Approved,,,,,,,,,
 TUN,Not-Approved,,Not-Approved,,Approved,unkown,Not-Approved,,Not-Approved,
-YEM,None-Approved,,,,,,,,
+YEM,None-Approved,,,,,,,,,
