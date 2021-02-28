@@ -1,0 +1,30 @@
+---
+title: "Oxford Data"
+output: html_notebook
+---
+
+```{r setup, echo=FALSE}
+library(RCurl)
+library(tidyverse)
+library(janitor)
+```
+
+```{r}
+mena.countries <- read_csv('./mena.csv') %>% clean_names()
+```
+
+
+
+```{r}
+owid.covid.url <- getURL("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv")
+owid.covid.mena <- read.csv(text = owid.covid.url) %>%
+  clean_names() %>%
+  filter(iso_code %in% mena.countries$iso3) %>%
+  select(iso_code, date, total_cases, new_cases, new_cases_smoothed,total_deaths,new_deaths,new_deaths_smoothed)
+
+owid.covid.mena %>%
+  write.csv("../Demographics/MENAR-CountriesCOVID.csv")
+```
+
+
+
