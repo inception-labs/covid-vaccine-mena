@@ -1,5 +1,5 @@
 # Covid Vaccination Data for MENA Region
-All dates are coded according to ISO 86O1 (YYYY-MM-DD) format, and all countries are represented by their [ISO 3116 three-character code](https://unstats.un.org/unsd/tradekb/knowledgebase/country-code).
+All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are represented by their [ISO 3116 three-character code](https://unstats.un.org/unsd/tradekb/knowledgebase/country-code).
 
 ## Demographics Files
 - **MENAR-Countries.csv:** The population estimates we use to calculate per-capita metrics are based upon the last revision of the [World Bank Population Prospects](https://data.worldbank.org/indicator/SP.POP.TOTL) (2019). The values used can be viewed in [MENAR-Countries.csv](https://github.com/inception-labs/covid-vaccine-mena/blob/main/MENAR-Countries.csv).
