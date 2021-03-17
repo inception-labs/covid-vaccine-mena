@@ -14,6 +14,7 @@ All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are
 - **Vaccine-Agreements.csv:**
 
 ## Distribution Files
+- **Media-Briefings.csv:**
 - **Vaccine-Accessibility.csv:**
 - **Vaccine-Eligibility.csv:**
 - **Vaccine-Progress.csv:**
