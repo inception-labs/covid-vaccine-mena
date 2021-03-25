@@ -7,17 +7,17 @@ All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are
 
 ## Donations Files
 - **COVAX-Eligibility.csv:** Countries that are COVAX AMC-Eligible have been outlined by [Gavi's 2020-12-15 publication](https://www.gavi.org/sites/default/files/covid/pr/COVAX_CA_COIP_List_COVAX_PR_15-12.pdf)
-- **COVAX-DonationHistory.csv:**
+- **COVAX-DonationHistory.csv:** Countries that have pledged donations to COVAX AMC have been outlined by GAVI. https://www.gavi.org/sites/default/files/covid/covax/COVAX-AMC-Donors-Table.pdf 
 
 ## Vaccines Files
-- **Vaccines-Approved.csv:**
-- **Vaccine-Agreements.csv:**
+- **Vaccines-Approved.csv:** Vaccine approval in each county are reported based on public official sources
+- **Vaccine-Agreements.csv:** Vaccine agreement in each country are reported based on public official sources
 
 ## Distribution Files
 - **Media-Briefings.csv:**
 - **Vaccine-Accessibility.csv:**
 - **Vaccine-Eligibility.csv:**
-- **Vaccine-Progress.csv:**
+- **Vaccine-Progress.csv:** The number of vaccine doses delivered in each country are drawn from official governmental websites and public offcial statements. Since most available vaccines require two doses, We are reporting two types of vaccine data. The number of people who received at least on  vaccine dose and the number of people who received two vaccine doses and are referred to as vaccinated people. 
 
 ## Citations
 - Our World in Data: Hasell, J., Mathieu, E., Beltekian, D. et al. A cross-country database of COVID-19 testing. Sci Data 7, 345 (2020). https://doi.org/10.1038/s41597-020-00688-8
