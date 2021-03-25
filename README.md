@@ -14,7 +14,6 @@ All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are
 - **Vaccine-Agreements.csv:** Vaccine agreement in each country are reported based on public official sources
 
 ## Distribution Files
-- **Media-Briefings.csv:**
 - **Vaccine-Accessibility.csv:**
 - **Vaccine-Eligibility.csv:**
 - **Vaccine-Progress.csv:** The number of vaccine doses delivered in each country are drawn from official governmental websites and public offcial statements. Official sources for each country and date can be round in the data repository. Since most available vaccines require two doses, We are reporting two types of vaccine data. The number of people who received at least one vaccine dose are represented by the One-Dose metric, and the number of people who received two vaccine doses are represented in the Total-Vaccinated metric. 
