@@ -10,8 +10,8 @@ All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are
 - **COVAX-DonationHistory.csv:** Countries that have pledged donations to COVAX AMC have been outlined by [GAVI.](https://www.gavi.org/sites/default/files/covid/covax/COVAX-AMC-Donors-Table.pdf)
 
 ## Vaccines Files
-- **Vaccines-Approved.csv:** Vaccine approval in each county are reported based on public official sources.
 - **Vaccine-Agreements.csv:** Vaccine agreement in each country are reported based on public official sources.
+- - **Vaccines-Authorized.csv:** Vaccine authorizations in each county are reported based on public official sources. Sources are posted along with the date of authorization for each respective country.
 
 ## Distribution Files
 - **Vaccine-Accessibility.csv:** Data on the registration platform used in each country (online vs. SMS text vs. Electronic health messages) as well as the URL sources for online registration websites.
