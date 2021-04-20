@@ -70,11 +70,14 @@ map_to_vaccine <- function(x) {
 owid.mena.vaccine <- owid.mena.list %>%
   map_dfr(map_to_vaccine)
 
-owid.mena.vaccine$Country <- countrycode( owid.mena.vaccine$location,origin = 'country.name', destination = 'iso3c')
+owid.mena.vaccine$Country <- countrycode( owid.mena.vaccine$location,origin = 'country.name', destination = 'iso3c') 
 
 
-owid.mena.vaccine %>%
-  write.csv("../Distribution/OWID-Vaccine-Progress.csv") 
+owid.mena.vaccine <- owid.mena.vaccine %>%
+  select(-location) %>%
+  select(Country, everything())
+
+owid.mena.vaccine %>%  write.csv("../Distribution/OWID-Vaccine-Progress.csv") 
 
 ```
 
@@ -86,6 +89,21 @@ owid.mena.vaccine %>%
 covid.dsi.manual.url <- getURL("https://raw.githubusercontent.com/inception-labs/covid-vaccine-mena/main/Distribution/Manual-Vaccine-Progress.csv")
 
 dsi.vaccine.data <- read.csv(text = covid.dsi.manual.url) %>%
-    clean_names()
+  clean_names() %>%
+  mutate(total_vaccinations = total_vaccinated + one_dose) %>%
+  select(country, date, total_vaccinations) %>%
+  filter(!is.na(total_vaccinations)) %>%
+  mutate(source="manual")
+  
+
+owid.mena.vaccine.simplified <- owid.mena.vaccine %>% clean_names() %>%
+  select(country, date, total_vaccinations) %>%
+  filter(!is.na(total_vaccinations)) %>%
+  mutate(source="owid")
+
+combined.mena.vaccine <-  rbind(dsi.vaccine.data, owid.mena.vaccine.simplified) %>%
+  arrange(country, date) 
+
+combined.mena.vaccine %>%  write.csv("../Distribution/Total-Vaccine-Progress.csv") 
 ```
 
