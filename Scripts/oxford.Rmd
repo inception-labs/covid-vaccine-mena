@@ -13,7 +13,7 @@ library(janitor)
 mena.countries <- read_csv('./mena.csv') %>% clean_names()
 ```
 
-
+# COVID Cases Statistics
 
 ```{r}
 owid.covid.url <- getURL("https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/owid-covid-data.csv")
@@ -29,5 +29,47 @@ owid.covid.mena %>%
   write.csv("../Demographics/MENAR-CountriesCOVID.csv")
 ```
 
+# COVID Vaccination Statistics
 
+```{r}
+owid.vaccine.url <- "https://raw.githubusercontent.com/owid/covid-19-data/master/public/data/vaccinations/country_data/"
+
+owid.mena.list <- list("United%20Arab%20Emirates", 
+                    "Bahrain", 
+                    "Algeria", 
+                    "Egypt", 
+                    "Iraq", 
+                    "Jordan", 
+                    "Kuwait", 
+                    "Lebanon", 
+                    "Morocco", 
+                    "Mauritania", 
+                    "Oman", 
+                    "Palestine", 
+                    "Qatar", 
+                    "Saudi%20Arabia", 
+                    "Sudan", 
+                    "Syria", 
+                    "Tunisia")
+
+map_to_vaccine <- function(x) {
+ 
+  country_path <- paste0(owid.vaccine.url, x, ".csv")
+  country.vaccine.url <- getURL(country_path)
+  
+  owid.vaccine.country <- read.csv(text = country.vaccine.url) %>%
+    clean_names() %>%
+    select(Country = location, Date = date, Total_Vaccinations = total_vaccinations, Source_url = source_url)
+  return(owid.vaccine.country)
+}
+
+owid.mena.vaccine <- owid.mena.list %>%
+  map_dfr(map_to_vaccine)
+
+# Add another file to read that Jessie and team will build manually
+# TODO: Review the QA process on how to clean the data in case of duplicates.
+owid.mena.vaccine %>%
+  write.csv("../Distribution/OWID-Vaccine-Progress.csv") 
+
+```
 
