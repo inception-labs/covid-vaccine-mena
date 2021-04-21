@@ -1,4 +1,4 @@
-Country,Date,One-dose,Total-Vaccinated,source
+Country,Date,One-dose,Total-Vaccinations,People_Vaccinated,People_Fully_Vaccinated,source
 ARE,2021-03-16,6668627,,https://covid19.ncema.gov.ae/en/page/about-the-vaccine
 ARE,2021-03-25,7603328,,https://covid19.ncema.gov.ae/en/page/about-the-vaccine
 BHR,2021-03-16,361241,219298,https://healthalert.gov.bh/en/category/daily-covid-19-report
