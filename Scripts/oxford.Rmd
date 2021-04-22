@@ -63,7 +63,11 @@ map_to_vaccine <- function(x) {
   
   owid.vaccine.country <- read.csv(text = country.vaccine.url) %>%
     clean_names() %>%
-    select(location, Date = date, Total_Vaccinations = total_vaccinations, Source_url = source_url)
+    select(location, Date = date, 
+           Total_Vaccinations = total_vaccinations, 
+           Total_Vaccinated = people_vaccinated,
+           Total_Fully_Vaccinated = people_fully_vaccinated,
+           Source_url = source_url)
   return(owid.vaccine.country)
 }
 
