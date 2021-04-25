@@ -1,5 +1,5 @@
-Country,Date_Range,Tags(News/),URL
-ARE,,,
+Country,Date_Range,Tags(News/OpEd/Vaccine_Production/WHO/COVAX),URL
+ARE,2021-01-12_2021-01-19,News,https://www.khaleejtimes.com/news/uae-covid-vaccination-doses-cross-two-million
 BHR,,,
 DZA,2021-01-12_2021-01-19,News,https://arabic.sputniknews.com/arab_world/202101171047822214-الجزائر-تستعد-لاستقبال-نصف-مليون-جرعة-من-لقاح-سبوتنيك-V-قبل-يناير/
 DZA,2021-01-12_2021-01-19,News,https://www.akhbarona.com/world/318244.html
@@ -7,13 +7,13 @@ EGY,,,
 IRQ,,,
 ISR,2021-01-12_2021-01-19,News,http://english.ahram.org.eg/NewsContent/50/1203/398729/AlAhram-Weekly/World/Israel-vaccinates-No-jabs-for-the-Palestinians.aspx
 JOR,2021-01-12_2021-01-19,News,https://www.france24.com/en/live-news/20210113-jordan-launches-covid-vaccination-campaign
-KWT,,,
+KWT,2021-01-12_2021-01-19,News,http://www.gdnonline.com/Details/913268/Health-minister-Over-20,000-have-received-first-dose-of-Covid-19-vaccine
 LBN,2021-01-12_2021-01-19,News,https://www.lebanon24.com/news/lebanon/784550/دياب-يوقع-مرسومًا-يتعلق-بلقاح-كورونا
 LBY,,,
 MAR,2021-01-12_2021-01-19,News,https://telquel.ma/2021/01/15/astrazeneca-20-millions-de-doses-destinees-au-programme-covax-envoyees-par-linde-a-la-fin-du-mois_1707802
 MAR,2021-01-12_2021-01-19,News,https://fr.le360.ma/societe/covid-19-pour-le-vaccin-dastrazeneca-le-maroc-devra-encore-attendre-231557
 MRT,,,
-OMN,,,
+OMN,2021-01-12_2021-01-19,News,https://shabiba.com/article/id/150870
 PSE,2021-01-12_2021-01-19,News,http://english.ahram.org.eg/NewsContent/50/1203/398729/AlAhram-Weekly/World/Israel-vaccinates-No-jabs-for-the-Palestinians.aspx
 QAT,,,
 SAU,,,
@@ -23,3 +23,14 @@ SSD,,,
 SYR,,,
 TUN,2021-01-12_2021-01-19,News,https://lapresse.tn/84308/acces-de-la-tunisie-au-vaccin-anti-covid-19-le-vrai-du-faux/
 YEM,,,
+MENA,2021-01-12_2021-01-19,Op/Ed,https://www.bmj.com/content/372/bmj.m4853
+MENA,2021-01-12_2021-01-19,Op/Ed,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3733454
+MENA,2021-01-12_2021-01-19,Vaccine_Production,https://www.businesslive.co.za/bd/national/health/first-covax-vaccine-doses-to-arrive-in-february/
+MENA,2021-01-12_2021-01-19,Vaccine_Production,http://english.ahram.org.eg/News/398896.aspx
+MENA,2021-01-12_2021-01-19,Vaccine_Production,https://www.urdupoint.com/en/world/vucic-notes-absence-of-covax-shipments-while-1142904.html
+MENA,2021-01-12_2021-01-19,Vaccine_Production,https://www.washingtonpost.com/health/2021/01/14/covid-vaccine-supply/
+MENA,2021-01-12_2021-01-19,WHO|COVAX|Vaccine_Production,https://news-24.fr/loms-dit-que-lafrique-verra-les-premieres-doses-vaccinales-de-covax-en-mars/ Vaccine production related News
+MENA,2021-01-12_2021-01-19,COVAX,https://barbadostoday.bb/2021/01/16/regions-share-of-covax-vaccines-here-by-end-of-march/
+MENA,2021-01-12_2021-01-19,WHO|COVAX,https://112.international/politics/covid-19-vaccination-begins-in-46-countries-who-58183.html
+MENA,2021-01-12_2021-01-19,WHO|COVAX,https://news.un.org/en/story/2021/01/1082362
+MENA,2021-01-12_2021-01-19,WHO,https://www.who.int/news/item/15-01-2021-emergency-committee-on-covid-19-advises-on-variants-vaccines
