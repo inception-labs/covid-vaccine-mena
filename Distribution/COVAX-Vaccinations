@@ -1,0 +1,2 @@
+Country, Date, First_Doses_Recieved, Doses_Recieved, Type_Recieved, Doses_Allocated, Source
+IRQ, 2021-05-06, 2021-03-25, 336000, AstraZeneca, 1725600, "https://www.gavi.org/covax-vaccine-roll-out/iraq"
