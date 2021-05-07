@@ -1,5 +1,5 @@
 Country, Date, First_Doses_Recieved, Doses_Recieved, Type_Recieved, Doses_Allocated, Source
-IRQ, 2021-05-06, 2021-03-25, 336000, AstraZeneca, 1725600, https://www.gavi.o,rg/covax-vaccine-roll-out/iraq
+IRQ, 2021-05-06, 2021-03-25, 336000, AstraZeneca, 1725600, "https://www.gavi.org/covax-vaccine-roll-out/iraq"
 JOR, 2021-05-06, 2021-03-13, 290400, AstraZeneca, 477750, "https://www.gavi.org/covax-vaccine-roll-out/jordan"
 LBN, 2021-05-06, 2021-03-24, 33600, AstraZeneca, 292800, "https://www.gavi.org/covax-vaccine-roll-out/lebanon"
 LBY, 2021-05-06, 2021-04-08, 58000, AstraZeneca, 292800, "https://www.gavi.org/covax-vaccine-roll-out/libya"
@@ -12,3 +12,4 @@ YEM, 2021-05-06, 2021-03-31, 360000, AstraZeneca, 1968000, "https://www.gavi.org
 DZA, 2021-05-06, 2021-04-03, 364800, AstraZeneca, 1881600, "https://www.gavi.org/covax-vaccine-roll-out/algeria"
 MRT, 2021-05-06, 2021-04-14, 100700, AstraZeneca, 300000, "https://www.gavi.org/covax-vaccine-roll-out/mauritania"
 SSD, 2021-05-06, 2021-03-25, 132000, AstraZeneca, 732000, "https://www.gavi.org/covax-vaccine-roll-out/south-sudan"
+"""Khouloud is the best,"" says Jessie"
