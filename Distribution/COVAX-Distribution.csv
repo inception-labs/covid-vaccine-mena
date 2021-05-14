@@ -1,5 +1,6 @@
 Country, Date_Recieved, #Doses_Recieved, Type_Recieved, Doses_Allocated, Source
-IRQ, 2021-03-25, XXX, AstraZeneca, 1725600, "https://www.gavi.org/covax-vaccine-roll-out/iraq"
+IRQ, 2021-03-25, 336000, AstraZeneca, 1725600, "https://www.gavi.org/covax-vaccine-roll-out/iraq"
+IRQ,2021-05-12,499 200,AstraZeneca, 1725600, "https://reliefweb.int/report/iraq/iraq-receives-second-delivery-covid-19-vaccines-through-covax-facility-enar"
 JOR, 2021-03-13, XXX, AstraZeneca, 477750, "https://www.gavi.org/covax-vaccine-roll-out/jordan"
 LBN, 2021-03-24, XXX, AstraZeneca, 292800, "https://www.gavi.org/covax-vaccine-roll-out/lebanon"
 LBY, 2021-04-08, XXX, AstraZeneca, 292800, "https://www.gavi.org/covax-vaccine-roll-out/libya"
