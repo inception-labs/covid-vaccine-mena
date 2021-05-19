@@ -1,7 +1,9 @@
+.vscode
 .Rproj.user
 .Rhistory
 .RData
 .Ruserdata
 *.Rproj
 Scripts/*.nb.html
-.vscode
+
+/.vscode
