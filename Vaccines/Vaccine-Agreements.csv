@@ -1,5 +1,4 @@
-Country,Vaccine-type,amount,Agreement-Type(COVAX/non-Covax),Date,Status(arrived/unknown/received/partial)
-ARE,
+Country, Date_Recieved, #Doses_Recieved, Type_Recieved, Agreement_type, Source
 BHR,
 DZA,
 EGY,
