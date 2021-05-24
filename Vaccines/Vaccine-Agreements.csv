@@ -1,6 +1,6 @@
 Country, Date_Recieved, #Doses_Recieved, Type_Recieved, Agreement_type, Source
 BHR,,,,,
-UAE,,,,,
+UAE, 2021-02-02, 200000, AstraZeneca, Self-financing, "https://www.arabnews.com/node/1802401/middle-east"
 DZA, 2021-04-03, 364800, AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/algeria"
 EGY, 2021-04-01 ,854400, AstraZeneca, COVAX, "http://www.emro.who.int/media/news/854-400-covid-19-vaccine-doses-shipped-by-covax-to-egypt.html"
 EGY, 2021-05-13,1768800, AstraZeneca, COVAX, "https://reliefweb.int/report/egypt/egypt-receives-second-shipment-177-million-covid-19-vaccines-through-covax-facility"
