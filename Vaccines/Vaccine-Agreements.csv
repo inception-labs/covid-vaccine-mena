@@ -19,8 +19,8 @@ OMN,,,,,
 PSE, 2021-03-17, 24000, AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/west-bank-and-gaza"
 PSE, 2021-03-17, 37440, Pfizer-BioNTech, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/west-bank-and-gaza"
 QAT,,,,,
-SAU,,,,,
-SOM,,,,,
+SAU,,,,, 
+SOM, 2021-03-15, 300000, AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/somalia"
 SDN,,,,,
 SSD, 2021-03-25, 132000, AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/south-sudan"
 SYR, 2021-04-22, 256800, AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/syria"
