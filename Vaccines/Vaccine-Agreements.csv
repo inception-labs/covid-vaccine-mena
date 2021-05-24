@@ -2,7 +2,7 @@ Country, Date_Recieved, #Doses_Recieved, Type_Recieved, Agreement_type, Source
 BHR,
 DZA,
 EGY,
-IRQ, 2021-03-25, 336000, AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/iraq"
+IRQ, 2021-03-25, 336000, AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/iraq",
 ISR,
 JOR,
 KWT,
