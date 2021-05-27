@@ -1,4 +1,5 @@
 Country, Date_Recieved, #Doses_Recieved, Type_Recieved, Agreement_type, Source
+BHR, 2021-01-28, 100000, AstraZeneca, Bilateral deal, "https://english.alarabiya.net/coronavirus/2021/01/28/Coronavirus-Coronavirus-Bahrain-receives-first-shipment-of-AstraZeneca-Oxford-vaccine"
 BHR, 2021-03-12, 300000, Sinopharm, Bilateral deal, "https://saudigazette.com.sa/article/604364"
 UAE, 2021-02-02, 200000, AstraZeneca, Bilateral deal, "https://www.arabnews.com/node/1802401/middle-east"
 UAE, 2021-02-16, NM,  Pfizer-BioNTech, Bilateral deal, "https://gulfnews.com/uae/health/dubai-receives-new-shipment-of-pfizer-biontech-vaccine-1.77238504"
@@ -11,6 +12,7 @@ ISR, 2020-12-09,NM,Pfizer,Bilateral deal,"https://www.cnbc.com/2020/12/09/israel
 JOR, 2021-03-13, 290400, AstraZeneca, COVAX, "https://www.gavi.org/covax-vhttps://gulfnews.com/world/gulf/kuwait/covid-19-200000-doses-of-astrazeneca-oxford-vaccine-to-arrive-in-kuwait-next-week-1.76775112accine-roll-out/jordan"
 JOR, 2021-04-18, 146400, AstraZeneca, COVAX, "https://en.royanews.tv/news/27175/2021-04-19"
 JOR, 2021-04-04, NM, Sinopharm, Bilateral deal, "https://arabic.rt.com/middle_east/1218392-%D9%88%D8%B5%D9%88%D9%84-%D8%B4%D8%AD%D9%86%D8%A9-%D9%84%D9%82%D8%A7%D8%AD%D8%A7%D8%AA-%D9%83%D9%88%D8%B1%D9%88%D9%86%D8%A7-%D8%B5%D9%8A%D9%86%D9%8A%D8%A9-%D9%84%D9%84%D8%A3%D8%B1%D8%AF%D9%86/"
+KWT, 2020-12-23, 150000, Pfizer-BioNTech,Bilateral deal, "https://www.gulf-insider.com/first-shipment-of-pfizer-vaccine-arrives-in-kuwait/" 
 KWT, 2021-01-02, 200000, AstraZeneca, Bilateral deal, "https://gulfnews.com/world/gulf/kuwait/covid-19-200000-doses-of-astrazeneca-oxford-vaccine-to-arrive-in-kuwait-next-week-1.76775112"
 KWT, 2021-04-04, 150000, AstraZeneca, Bilateral deal, "https://gulfnews.com/world/gulf/kuwait/covid-19-kuwait-receives-2nd-batch-of-oxford-astrazeneca-vaccine-1.78326364"
 LBN, 2021-04-08, 58000 , AstraZeneca, COVAX, "https://www.gavi.org/covax-vaccine-roll-out/lebanon"
