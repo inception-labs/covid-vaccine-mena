@@ -94,7 +94,7 @@ covid.dsi.manual.url <- getURL("https://raw.githubusercontent.com/inception-labs
 
 dsi.vaccine.data <- read.csv(text = covid.dsi.manual.url) %>%
   clean_names() %>%
-  mutate(total_vaccinations = total_vaccinated + one_dose) %>%
+  mutate(total_vaccinations) %>%
   select(country, date, total_vaccinations) %>%
   filter(!is.na(total_vaccinations)) %>%
   mutate(source="manual")
