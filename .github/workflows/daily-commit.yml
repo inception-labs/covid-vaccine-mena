@@ -36,6 +36,10 @@ jobs:
         run: |
           install.packages('remotes')
           install.packages('sessioninfo')
+          install.packages('countrycode')
+          install.packages('janitor')
+          install.packages('tidyverse')
+          install.packages('RCurl')
           saveRDS(remotes::dev_package_deps(dependencies = TRUE), ".github/depends.Rds", version = 2)
           writeLines(sprintf("R-%i.%i", getRversion()$major, getRversion()$minor), ".github/R-version")
         shell: Rscript {0}
