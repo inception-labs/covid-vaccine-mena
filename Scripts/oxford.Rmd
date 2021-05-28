@@ -86,7 +86,7 @@ owid.mena.vaccine %>%  write.csv("../Distribution/OWID-Vaccine-Progress.csv")
 ```
 
 ## Step 2: Merge Data from DSI Dataset
-
+ 
 ```{r}
 # Add another file to read that Jessie and team will build manually
 # TODO: Review the QA process on how to clean the data in case of duplicates.
