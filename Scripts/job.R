@@ -1,7 +1,11 @@
-library(RCurl)
-library(tidyverse)
-library(janitor)
-library(countrycode)
+install.packages('RCurl')
+install.packages('tidyverse')
+install.packages('janitor')
+install.packages('countrycode')
+library('RCurl')
+library('tidyverse')
+library('janitor')
+library('countrycode')
 
 # OWID Data
 mena.countries <- read_csv('./Scripts/mena.csv') %>% clean_names()
