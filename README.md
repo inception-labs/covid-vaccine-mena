@@ -1,4 +1,7 @@
 # Covid Vaccination Data for MENA Region
+
+[![.github/workflows/daily-commit.yml](https://github.com/inception-labs/covid-vaccine-mena/actions/workflows/daily-commit.yml/badge.svg)](https://github.com/inception-labs/covid-vaccine-mena/actions/workflows/daily-commit.yml)
+
 All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are represented by their [ISO 3116 three-character code](https://unstats.un.org/unsd/tradekb/knowledgebase/country-code).
 
 ## Demographics Files
