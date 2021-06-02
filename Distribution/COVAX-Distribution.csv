@@ -1,10 +1,11 @@
 Country, Date_Recieved, #Doses_Recieved, Type_Recieved, Doses_Allocated, Source
 IRQ, 2021-03-25, 336000, AstraZeneca, 1725600, "https://www.gavi.org/covax-vaccine-roll-out/iraq"
 IRQ,2021-05-12,499200,AstraZeneca, 1725600, "https://reliefweb.int/report/iraq/iraq-receives-second-delivery-covid-19-vaccines-through-covax-facility-enar"
-JOR, 2021-03-13,290400, AstraZeneca, 477750, "https://www.gavi.org/covax-vaccine-roll-out/jordan"
+JOR, 2021-03-13,290400, AstraZeneca, 477750, "https://www.ghttps://www.reuters.com/article/us-health-coronavirus-vaccine-idUSKBN2B20YL"avi.org/covax-vaccine-roll-out/jordan"
 JOR, 2021-04-18,146400, AstraZeneca, 477750, "https://en.royanews.tv/news/27175/2021-04-19"
 LBN, 2021-03-24,33600, AstraZeneca, 292800, "https://www.gavi.org/covax-vaccine-roll-out/lebanon"
 LBY, 2021-04-08,58000 , AstraZeneca, 292800, "https://www.gavi.org/covax-vaccine-roll-out/libya"
+LBY, 2021-05-19,117600, AstraZeneca, 292800, "https://www.reuters.com/article/us-health-coronavirus-vaccine-idUSKBN2B20YL"
 SOM, 2021-03-15,300000, AstraZeneca, 1044000, "https://www.gavi.org/covax-vaccine-roll-out/somalia"
 SYR, 2021-04-22,256800, AstraZeneca, 912000, "https://www.gavi.org/covax-vaccine-roll-out/syria"
 TUN, 2021-03-17,93600, Pfizer-BioNTech, 506400, "https://www.gavi.org/covax-vaccine-roll-out/tunisia"
