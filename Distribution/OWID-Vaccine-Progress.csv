@@ -1,4 +1,4 @@
-"","Country","Date","Total_Vaccinations","Total_Vaccinated","Total_Fully_Vaccinated","Source_url"
+"","Country_Code","Date","Total_Vaccinations","Total_Vaccinated","Total_Fully_Vaccinated","Source_url"
 "1","ARE","2021-01-05",826301,NA,NA,"https://fcsc.gov.ae/en-us/Pages/Covid19/UAE-Covid-19-Updates.aspx"
 "2","ARE","2021-01-06",826301,NA,NA,"https://fcsc.gov.ae/en-us/Pages/Covid19/UAE-Covid-19-Updates.aspx"
 "3","ARE","2021-01-07",887697,NA,NA,"https://fcsc.gov.ae/en-us/Pages/Covid19/UAE-Covid-19-Updates.aspx"
