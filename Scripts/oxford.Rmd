@@ -27,7 +27,7 @@ owid.covid.mena <- read.csv(text = owid.covid.url) %>%
   select(iso_code, date, total_cases, new_cases, new_cases_smoothed,total_deaths,new_deaths,new_deaths_smoothed)
 
 owid.covid.mena %>%
-  write.csv("../Demographics/MER-CountriesCOVID.csv")
+  write.csv("../Demographics/MER-CountriesCOVID.csv", na="")
 ```
 
 # COVID Vaccination Statistics
@@ -53,11 +53,11 @@ owid.mena.list <- list("United%20Arab%20Emirates",
                     "Qatar", 
                     "Saudi%20Arabia",
                     "Syria", 
-                    "Tunisia"
-                    "Libya"
-                    "Somalia"
-                    "Sudan"
-                    "South%20Sudan"
+                    "Tunisia",
+                    "Libya",
+                    "Somalia",
+                    "Sudan",
+                    "South%20Sudan",
                     "Yemen")
 
 map_to_vaccine <- function(x) {
@@ -85,33 +85,6 @@ owid.mena.vaccine <- owid.mena.vaccine %>%
   select(-location) %>%
   select(Country, everything())
 
-owid.mena.vaccine %>%  write.csv("../Distribution/OWID-Vaccine-Progress.csv") 
-
-```
-
-## Step 2: Merge Data from DSI Dataset
- 
-```{r}
-# Add another file to read that Jessie and team will build manually
-# TODO: Review the QA process on how to clean the data in case of duplicates.
-covid.dsi.manual.url <- getURL("https://raw.githubusercontent.com/inception-labs/covid-vaccine-mena/main/Distribution/Manual-Vaccine-Progress.csv")
-
-dsi.vaccine.data <- read.csv(text = covid.dsi.manual.url) %>%
-  clean_names() %>%
-  mutate(total_vaccinations) %>%
-  select(country, date, total_vaccinations) %>%
-  filter(!is.na(total_vaccinations)) %>%
-  mutate(source="manual")
-  
-
-owid.mena.vaccine.simplified <- owid.mena.vaccine %>% clean_names() %>%
-  select(country, date, total_vaccinations) %>%
-  filter(!is.na(total_vaccinations)) %>%
-  mutate(source="owid")
-
-combined.mena.vaccine <-  rbind(dsi.vaccine.data, owid.mena.vaccine.simplified) %>%
-  arrange(country, date) 
-
-combined.mena.vaccine %>%  write.csv("../Distribution/Total-Vaccine-Progress.csv") 
+owid.mena.vaccine %>%  write.csv("../Distribution/OWID-Vaccine-Progress.csv", na = "") 
 ```
 
