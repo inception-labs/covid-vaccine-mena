@@ -52,9 +52,13 @@ owid.mena.list <- list("United%20Arab%20Emirates",
                     "Palestine", 
                     "Qatar", 
                     "Saudi%20Arabia",
-                    "Sudan",
                     "Syria", 
-                    "Tunisia")
+                    "Tunisia"
+                    "Libya"
+                    "Somalia"
+                    "Sudan"
+                    "South%20Sudan"
+                    "Yemen")
 
 map_to_vaccine <- function(x) {
  
