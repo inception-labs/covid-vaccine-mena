@@ -27,7 +27,7 @@ owid.covid.mena <- read.csv(text = owid.covid.url) %>%
   select(iso_code, date, total_cases, new_cases, new_cases_smoothed,total_deaths,new_deaths,new_deaths_smoothed)
 
 owid.covid.mena %>%
-  write.csv("../Demographics/MENAR-CountriesCOVID.csv")
+  write.csv("../Demographics/MER-CountriesCOVID.csv")
 ```
 
 # COVID Vaccination Statistics

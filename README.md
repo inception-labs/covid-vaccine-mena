@@ -1,12 +1,12 @@
-# Covid Vaccination Data for MENA Region
+# Covid Vaccination Data for ME Region
 
 [![.github/workflows/daily-commit.yml](https://github.com/inception-labs/covid-vaccine-mena/actions/workflows/daily-commit.yml/badge.svg)](https://github.com/inception-labs/covid-vaccine-mena/actions/workflows/daily-commit.yml)
 
 All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are represented by their [ISO 3116 three-character code](https://unstats.un.org/unsd/tradekb/knowledgebase/country-code).
 
 ## Demographics Files
-- **MENAR-Countries.csv:** The population estimates we use to calculate per-capita metrics are based upon the last revision of the [World Bank Population Prospects](https://data.worldbank.org/indicator/SP.POP.TOTL) (2019). The values used can be viewed in [MENAR-Countries.csv](https://github.com/inception-labs/covid-vaccine-mena/blob/main/MENAR-Countries.csv).
-- **MENAR-CountriesCOVID.csv:** Data on COVID Total-deaths, smoothed-deaths, Total-cases, and smoothed-cases are gathered from [Our World in Data's COVID-19 dataset](https://github.com/owid/covid-19-data/blob/master/public/data/README.md)
+- **MER-Countries.csv:** The population estimates we use to calculate per-capita metrics are based upon the last revision of the [World Bank Population Prospects](https://data.worldbank.org/indicator/SP.POP.TOTL) (2019). The values used can be viewed in [MER-Countries.csv](https://github.com/inception-labs/covid-vaccine-mena/blob/main/MER-Countries.csv).
+- **MER-CountriesCOVID.csv:** Data on COVID Total-deaths, smoothed-deaths, Total-cases, and smoothed-cases are gathered from [Our World in Data's COVID-19 dataset](https://github.com/owid/covid-19-data/blob/master/public/data/README.md)
 
 ## Donations Files
 - **COVAX-Eligibility.csv:** Countries that are COVAX AMC-Eligible have been outlined by [Gavi's 2020-12-15 publication.](https://www.gavi.org/sites/default/files/covid/pr/COVAX_CA_COIP_List_COVAX_PR_15-12.pdf)

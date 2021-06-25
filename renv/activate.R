@@ -8,7 +8,7 @@ local({
   project <- getwd()
 
   # avoid recursion
-  if (!is.na(Sys.getenv("RENV_R_INITIALIZING", unset = NA)))
+  if (!is.na(Sys.getenv("RENV_R_INITIALIZING", unset = )))
     return(invisible(TRUE))
 
   # signal that we're loading renv during R startup
@@ -58,7 +58,7 @@ local({
   renv_bootstrap_repos <- function() {
   
     # check for repos override
-    repos <- Sys.getenv("RENV_CONFIG_REPOS_OVERRIDE", unset = NA)
+    repos <- Sys.getenv("RENV_CONFIG_REPOS_OVERRIDE", unset = )
     if (!is.na(repos))
       return(repos)
   
@@ -340,12 +340,12 @@ local({
   renv_bootstrap_platform_prefix_impl <- function() {
   
     # if an explicit prefix has been supplied, use it
-    prefix <- Sys.getenv("RENV_PATHS_PREFIX", unset = NA)
+    prefix <- Sys.getenv("RENV_PATHS_PREFIX", unset = )
     if (!is.na(prefix))
       return(prefix)
   
     # if the user has requested an automatic prefix, generate it
-    auto <- Sys.getenv("RENV_PATHS_PREFIX_AUTO", unset = NA)
+    auto <- Sys.getenv("RENV_PATHS_PREFIX_AUTO", unset = )
     if (auto %in% c("TRUE", "True", "true", "1"))
       return(renv_bootstrap_platform_prefix_auto())
   
@@ -426,7 +426,7 @@ local({
   
     # read version
     version <- "unknown"
-    for (field in c("UBUNTU_CODENAME", "VERSION_CODENAME", "VERSION_ID", "BUILD_ID")) {
+    for (field in c("UBUNTU_CODEME", "VERSION_CODEME", "VERSION_ID", "BUILD_ID")) {
       if (field %in% names(vars) && nzchar(vars[[field]])) {
         version <- vars[[field]]
         break
@@ -485,11 +485,11 @@ local({
   
   renv_bootstrap_library_root <- function(project) {
   
-    path <- Sys.getenv("RENV_PATHS_LIBRARY", unset = NA)
+    path <- Sys.getenv("RENV_PATHS_LIBRARY", unset = )
     if (!is.na(path))
       return(path)
   
-    path <- Sys.getenv("RENV_PATHS_LIBRARY_ROOT", unset = NA)
+    path <- Sys.getenv("RENV_PATHS_LIBRARY_ROOT", unset = )
     if (!is.na(path)) {
       name <- renv_bootstrap_library_root_name(project)
       return(file.path(path, name))
@@ -557,7 +557,7 @@ local({
   renv_bootstrap_profile_load <- function(project) {
   
     # if RENV_PROFILE is already set, just use that
-    profile <- Sys.getenv("RENV_PROFILE", unset = NA)
+    profile <- Sys.getenv("RENV_PROFILE", unset = )
     if (!is.na(profile) && nzchar(profile))
       return(profile)
   
@@ -634,7 +634,7 @@ local({
   bootstrap(version, libpath)
 
   # exit early if we're just testing bootstrap
-  if (!is.na(Sys.getenv("RENV_BOOTSTRAP_INSTALL_ONLY", unset = NA)))
+  if (!is.na(Sys.getenv("RENV_BOOTSTRAP_INSTALL_ONLY", unset = )))
     return(TRUE)
 
   # try again to load
