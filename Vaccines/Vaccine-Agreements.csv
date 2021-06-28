@@ -1,4 +1,4 @@
-Country,Date_Recieved,#Doses_Recieved,Type_Recieved,Agreement_type,Source
+Country,Date_Recieved,Doses_Recieved,Type_Recieved,Agreement_type,Source
 BHR,2021-01-28,100000,AstraZeneca,Bilateral deal,"https://english.alarabiya.net/coronavirus/2021/01/28/Coronavirus-Coronavirus-Bahrain-receives-first-shipment-of-AstraZeneca-Oxford-vaccine"
 BHR,2021-03-12,300000,Sinopharm,Bilateral deal,"https://saudigazette.com.sa/article/604364"
 UAE,2021-02-02,200000,AstraZeneca,Bilateral deal,"https://www.arabnews.com/node/1802401/middle-east"
