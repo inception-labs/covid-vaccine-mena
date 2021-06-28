@@ -1,4 +1,4 @@
-Country,Date_Recieved,Shipment,Doses_Recieved,Type_Recieved,Doses_Allocated,Source
+Country,Date_Recieved,Doses_Recieved,Number_of_Shipment,Type_Recieved,Doses_Allocated,Source
 IRQ,2021-03-25,336000,1,AstraZeneca,1725600,"https://www.gavi.org/covax-vaccine-roll-out/iraq"
 IRQ,2021-05-12,499200,2,AstraZeneca,1725600,"https://reliefweb.int/report/iraq/iraq-receives-second-delivery-covid-19-vaccines-through-covax-facility-enar"
 JOR,2021-03-13,290400,1,AstraZeneca,477750,"https://www.ghttps://www.reuters.com/article/us-health-coronavirus-vaccine-idUSKBN2B20YLavi.org/covax-vaccine-roll-out/jordan"
