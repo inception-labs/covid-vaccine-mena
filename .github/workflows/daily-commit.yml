@@ -29,7 +29,7 @@ jobs:
 
       - name: Install packages
         run: |
-          R -e 'install.packages("renv")'
+          R -e 'install.packages("renv", repo="http://cran.rstudio.com/")'
           R -e 'renv::consent(provided = TRUE)'
           R -e 'renv::restore()'
 
