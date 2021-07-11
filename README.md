@@ -9,8 +9,6 @@ All dates are coded according to ISO 86O1 (YYYY-MM-DD) format. All countries are
 - **MER-CountriesCOVID.csv:** Data on COVID Total-deaths, smoothed-deaths, Total-cases, and smoothed-cases are gathered from [Our World in Data's COVID-19 dataset](https://github.com/owid/covid-19-data/blob/master/public/data/README.md)
 
 ## Donations Files
-- **COVAX-Eligibility.csv:** Countries that are COVAX AMC-Eligible have been outlined by [Gavi's 2020-12-15 publication.](https://www.gavi.org/sites/default/files/covid/pr/COVAX_CA_COIP_List_COVAX_PR_15-12.pdf)
-- **COVAX-DonationHistory.csv:** Countries that have pledged donations to COVAX AMC have been outlined by [GAVI.](https://www.gavi.org/sites/default/files/covid/covax/COVAX-AMC-Donors-Table.pdf)
 
 ## Vaccines Files
 - **Vaccine-Agreements.csv:** Vaccine agreement in each country are reported based on public official sources.
