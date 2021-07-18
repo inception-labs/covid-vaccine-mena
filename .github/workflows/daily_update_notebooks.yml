@@ -1,0 +1,40 @@
+name: .github/workflows
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: '42 18 * * 0-6'
+jobs:
+  build:
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        python-version: [3.6, 3.7, 3.8, 3.9]
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}    
+    - name: Install papermill
+      run: |
+         pip install papermill
+    - name: Running
+      run: |
+         papermill Scripts/Menar_Covid_Country_Investigation.ipynb  Scripts/Menar_Covid_Country_Investigation.ipynb
+         papermill Scripts/Mena_Covid_Country_Investigation_Lebanon.ipynb  Scripts/Mena_Covid_Country_Investigation_Lebanon.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Bahrain.ipynb  Scripts/Menar_Covid_Country_Investigation_Bahrain.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Egypt.ipynb  Scripts/Menar_Covid_Country_Investigation_Egypt.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Iraq.ipynb  Scripts/Menar_Covid_Country_Investigation_Iraq.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Israel.ipynb  Scripts/Menar_Covid_Country_Investigation_Israel.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Jordan.ipynb  Scripts/Menar_Covid_Country_Investigation_Jordan.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Kuwait.ipynb  Scripts/Menar_Covid_Country_Investigation_Kuwait.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Libya.ipynb  Scripts/Menar_Covid_Country_Investigation_Libya.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_Tunisia.ipynb  Scripts/Menar_Covid_Country_Investigation_Tunisia.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation_United_Arab_Emirates.ipynb  Scripts/Menar_Covid_Country_Investigation_United_Arab_Emirates.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation-Marocco.ipynb  Scripts/Menar_Covid_Country_Investigation-Marocco.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation-Oman.ipynb   Scripts/Menar_Covid_Country_Investigation-Oman.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation-Palestine.ipynb   Scripts/Menar_Covid_Country_Investigation-Palestine.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation-Sudan.ipynb   Scripts/Menar_Covid_Country_Investigation-Sudan.ipynb
+         papermill Scripts/Menar_Covid_Country_Investigation-Syria.ipynb   Scripts/Menar_Covid_Country_Investigation-Syria.ipynb
